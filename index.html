@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- --------- UNICONS ---------- -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+
+    <!-- --------- CSS ---------- -->
+    <link rel="stylesheet" href="assets/css/style.css" />
+
+    <!-- --------- FAVICON ---------- -->
+    <link
+      rel="shortcut icon"
+      href="assets/images/J-favicon.png"
+      type="image/x-icon"
+    />
+
+    <title>Portfolio de Jessica</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- --------------- HEADER --------------- -->
+      <nav id="header">
+        <div class="nav-logo">
+          <p class="nav-name">Jessica</p>
+          <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+          <ul class="nav-menu-list">
+            <li class="nav-list">
+              <a href="#home" class="nav-link">Accueil</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#about" class="nav-link">À propos</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#projects" class="nav-link">Projets</a>
+              <div class="circle"></div>
+            </li>
+            <li class="nav-list">
+              <a href="#contact" class="nav-link">Contact</a>
+              <div class="circle"></div>
+            </li>
+          </ul>
+        </div>
+        <div class="nav-button">
+          <button class="btn">
+            Télécharger mon CV <i class="fa-regular fa-file"></i>
+          </button>
+        </div>
+        <div class="nav-menu-btn">
+          <i class="fa-solid fa-bars" onclick="myMenuFunction()"></i>
+        </div>
+      </nav>
+
+      <!-- -------------- MAIN ---------------- -->
+      <main class="wrapper">
+     <!-- -------------- FEATURED BOX ---------------- -->
+
+        <section class="featured-box" id="home">
+          <div class="featured-text">
+            <div class="featured-text-card">
+              <span>ADEGNIKA Jessica Reve</span>
+            </div>
+            <div class="featured-name">
+              <p>Je suis <span class="typedText"> Développeuse Junior</span></p>
+            </div>
+            <div class="featured-text-info">
+              <p>Passionnée par la création d'applications web et mobile</p>
+            </div>
+              <div class="featured-text-btn">
+                <button class="btn blue-btn">Voir mes projets <i class="fa-solid fa-briefcase"></i></button>
+                <button class="btn ">Télécharger mon cv <i class="fa-regular fa-file"></i> </button>
+              </div>
+            <div class="social-icons">
+                <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                <div class="icon"> <i class="fa-brands fa-linkedin"></i> </div>
+                <div class="icon"> <i class="fa-brands fa-facebook"></i> </div>
+                <div class="icon"> <i class="fa-brands fa-github"></i> </div>
+
+            </div>
+          </div>
+          <div class="featured-image">
+            <div class="image">
+                <img src="assets/images/image0.jpeg" alt="Photo">
+            </div>
+          </div>
+          <div class="scroll-icon-box">
+            <a href="#about" class="scroll-btn"><i class="fa-solid fa-computer-mouse"></i>
+            </a>
+            <p> Scroll Down</p>
+          </div>
+        </section>
+    <!-- -------------- ABOUT BOX ---------------- -->
+        <section class="section" id="about">
+            <div class="top-header">
+                <h1>A Propos De Moi</h1>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="about-info">
+                        <h3>Présentation</h3>
+                        <p>Développeuse junoir frontend et backend avec une maitrise de différents langage et framework.
+                        J'ai également  des compétences en design graphique et l'utilisation
+                            de logiciel tel que Figma, Adobe XD et Canva .
+
+                        </p>
+                        <div class="about-btn">
+                            <button class="btn"> Télécharger mon CV <i class="fa-solid fa-download"></i> </button>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Frontend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Bootstrap</span>
+                            <span>JavaScripts</span>
+                            
+                        </div>
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Backend</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>PHP</span>
+                            <span>Python</span>
+                            <span>Java</span>
+                            
+                        </div>
+
+                    </div>
+                    <div class="skills-box">
+                        <div class="skills-header">
+                            <h3>Database</h3>
+                        </div>
+                        <div class="skills-list">
+                            <span>MySQL</span>                        
+                        </div>
+
+                    </div>
+            </div>
+            </div>
+        </section>
+      <!-- -------------- PROJECT BOX ---------------- -->
+        <section class="section" id="projects">
+            <div class="top-header">
+                <h1>Mes Projets</h1>
+
+            </div>
+            <div class="project-container">
+                <div class="project-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                    <h3>Terminés</h3>
+                    <label for="">
+                        5+ projets
+                    </label>
+                </div>
+                <div class="project-box">
+                    <i class="fa-regular fa-user"></i> 
+                    <h3>Types de projets</h3>
+                    <label for="">
+                        Projets personnels
+                    </label>
+                </div>
+                <div class="project-box">
+                    <i class="fa-solid fa-award"></i>
+                    <h3>Expérience</h3>
+                    <label for="">
+                        5+ d'années d'experience
+                    </label>
+                </div>
+            </div>
+        </section>
+
+      <!-- -------------- CONTACT BOX ---------------- -->
+        <section class="section" id="contact">
+            <div class="top-header">
+                <h1>Nous contacter</h1>
+                <span>Vous avez un projet, contactez-nous ici </span>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="contact-info">
+                        <h2>Nos contacts <i class="fa-solid fa-arrow-down"></i></h2>
+                        <p><i class="fa-regular fa-envelope"></i> Email: adegnikajessica@icloud.com</p>
+                        <p><i class="fa-solid fa-phone"></i> Tel: +228 98 95 73 89 </p>
+                        <p><i class="fa-brands fa-linkedin"></i> ADEGNIKA Jessica Reve</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="form-control">
+                        <div class="form-input">
+                            <input type="text" class="input-field" placeholder="Name">
+                            <input type="text" class="input-field" placeholder="Email">
+                        </div>
+                        <div class="text-area">
+                            <textarea placeholder="Message"></textarea>
+                        </div>
+                        <div class="form-button">
+                            <button class="btn">Envoyer <i class="fa-regular fa-paper-plane"></i></button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+      </main>
+
+      <!-- --------------- FOOTER --------------- -->
+        <footer>
+            <div class="top-footer">
+                <p>Jessica.</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer-menu-list">
+                        <a href="#home">Accueil</a>
+                    </li> <li class="footer-menu-list">
+                        <a href="#about">A propos</a>
+                    </li> <li class="footer-menu-list">
+                        <a href="#projects">Projets</a>
+                    </li> <li class="footer-menu-list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <p> <i class="fa-brands fa-instagram"></i> </p>
+                <p> <i class="fa-brands fa-linkedin"></i> </p>
+                <p> <i class="fa-brands fa-facebook"></i> </p>
+                <p> <i class="fa-brands fa-github"></i> </p>
+
+            </div>
+            <div class="bottom-footer">
+                <p>Copyright &copy; <a href="#home" style="text-decoration: none;">ADEGNIKA Jessica Reve</a>-Tout droit reservés</p>
+            </div>
+        </footer>
+
+
+
+    </div>
+    <!-- ----- TYPING JS Link ----- -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+
+    <!-- ----- SCROLL REVEAL JS Link----- -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- ----- MAIN JS ----- -->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
